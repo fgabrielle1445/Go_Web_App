@@ -1,0 +1,13 @@
+<h1>Hello, {{.Name}}</h1>
+<h2>{{.Age}}</h2>
+<h2>{{.Meta.Visits}}</h2>
+<p>Bio: {{.Bio}}</p>
+
+<script>
+    const user = {
+      "name": {{.Name}},
+      "bio": {{.Bio}}
+    };
+    console.log(user);
+  </script>
+  
