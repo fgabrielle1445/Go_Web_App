@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"path/filepath"
 
+	"github.com/fgabrielle1445/web_app/controllers"
 	"github.com/fgabrielle1445/web_app/views"
-
 	"github.com/go-chi/chi/v5"
 )
 
